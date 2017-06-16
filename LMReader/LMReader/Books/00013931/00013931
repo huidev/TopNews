@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bodyURL</key>
+	<string>http://182.18.29.187:8080/reader//nbpdownload.action?uid=-1&amp;cid=00013931&amp;seq=0&amp;picsize=middle&amp;imei=&amp;imsi=&amp;iccid=&amp;ver=1.6&amp;lan=zh&amp;ua=ios&amp;platform=ios&amp;chan=ios&amp;profileid=2020</string>
+	<key>bookId</key>
+	<string>00013931</string>
+	<key>bookMarks</key>
+	<array/>
+	<key>bookName</key>
+	<string>重生之正妻攻略</string>
+	<key>book_type</key>
+	<integer>2</integer>
+	<key>coverURL</key>
+	<string>http://reader.soutuw.com:8080/nokiareader/cover.action?ver=1.6&amp;platform=IOS&amp;uid=(null)&amp;imei=&amp;imsi=&amp;iccid=&amp;opr=(null)&amp;simopr=(null)(null)&amp;networkopr=(null)&amp;system_version=7.1&amp;chan=IOS&amp;appid=21&amp;profileid=2020&amp;lan=zh&amp;ua=x86_64&amp;id=00013931&amp;picsize=middle</string>
+	<key>currentChapterIndex</key>
+	<integer>0</integer>
+	<key>downPercent</key>
+	<real>0.87076854705810547</real>
+	<key>isSerialize</key>
+	<integer>0</integer>
+	<key>offSize</key>
+	<integer>0</integer>
+	<key>readPercent</key>
+	<real>0.0</real>
+</dict>
+</plist>

@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		645FD2101CE32022002FD5FB /* libstatic.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 645FD20F1CE32022002FD5FB /* libstatic.h */; };
+		645FD2121CE32022002FD5FB /* libstatic.m in Sources */ = {isa = PBXBuildFile; fileRef = 645FD2111CE32022002FD5FB /* libstatic.m */; };
+		645FD2191CE320B9002FD5FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 645FD2181CE320B9002FD5FB /* UIKit.framework */; };
+		645FD21B1CE320D8002FD5FB /* libstatic.h in Headers */ = {isa = PBXBuildFile; fileRef = 645FD20F1CE32022002FD5FB /* libstatic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		645FD2311CE322F1002FD5FB /* RWKnobControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 645FD22B1CE322F1002FD5FB /* RWKnobControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		645FD2321CE322F1002FD5FB /* RWKnobControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 645FD22C1CE322F1002FD5FB /* RWKnobControl.m */; };
+		645FD2331CE322F1002FD5FB /* RWKnobRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 645FD22D1CE322F1002FD5FB /* RWKnobRenderer.h */; };
+		645FD2341CE322F1002FD5FB /* RWKnobRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 645FD22E1CE322F1002FD5FB /* RWKnobRenderer.m */; };
+		645FD2351CE322F1002FD5FB /* RWRotationGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 645FD22F1CE322F1002FD5FB /* RWRotationGestureRecognizer.h */; };
+		645FD2361CE322F1002FD5FB /* RWRotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 645FD2301CE322F1002FD5FB /* RWRotationGestureRecognizer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		645FD20A1CE32022002FD5FB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				645FD2101CE32022002FD5FB /* libstatic.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		645FD20C1CE32022002FD5FB /* liblibstatic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibstatic.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		645FD20F1CE32022002FD5FB /* libstatic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libstatic.h; sourceTree = "<group>"; };
+		645FD2111CE32022002FD5FB /* libstatic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libstatic.m; sourceTree = "<group>"; };
+		645FD2181CE320B9002FD5FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		645FD22B1CE322F1002FD5FB /* RWKnobControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWKnobControl.h; sourceTree = "<group>"; };
+		645FD22C1CE322F1002FD5FB /* RWKnobControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWKnobControl.m; sourceTree = "<group>"; };
+		645FD22D1CE322F1002FD5FB /* RWKnobRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWKnobRenderer.h; sourceTree = "<group>"; };
+		645FD22E1CE322F1002FD5FB /* RWKnobRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWKnobRenderer.m; sourceTree = "<group>"; };
+		645FD22F1CE322F1002FD5FB /* RWRotationGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWRotationGestureRecognizer.h; sourceTree = "<group>"; };
+		645FD2301CE322F1002FD5FB /* RWRotationGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWRotationGestureRecognizer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		645FD2091CE32022002FD5FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				645FD2191CE320B9002FD5FB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		645FD2031CE32022002FD5FB = {
+			isa = PBXGroup;
+			children = (
+				645FD2181CE320B9002FD5FB /* UIKit.framework */,
+				645FD20E1CE32022002FD5FB /* libstatic */,
+				645FD20D1CE32022002FD5FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		645FD20D1CE32022002FD5FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				645FD20C1CE32022002FD5FB /* liblibstatic.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		645FD20E1CE32022002FD5FB /* libstatic */ = {
+			isa = PBXGroup;
+			children = (
+				645FD22A1CE322F1002FD5FB /* RWKnobControl */,
+				645FD20F1CE32022002FD5FB /* libstatic.h */,
+				645FD2111CE32022002FD5FB /* libstatic.m */,
+			);
+			path = libstatic;
+			sourceTree = "<group>";
+		};
+		645FD22A1CE322F1002FD5FB /* RWKnobControl */ = {
+			isa = PBXGroup;
+			children = (
+				645FD22B1CE322F1002FD5FB /* RWKnobControl.h */,
+				645FD22C1CE322F1002FD5FB /* RWKnobControl.m */,
+				645FD22D1CE322F1002FD5FB /* RWKnobRenderer.h */,
+				645FD22E1CE322F1002FD5FB /* RWKnobRenderer.m */,
+				645FD22F1CE322F1002FD5FB /* RWRotationGestureRecognizer.h */,
+				645FD2301CE322F1002FD5FB /* RWRotationGestureRecognizer.m */,
+			);
+			path = RWKnobControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		645FD21A1CE320C1002FD5FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				645FD21B1CE320D8002FD5FB /* libstatic.h in Headers */,
+				645FD2311CE322F1002FD5FB /* RWKnobControl.h in Headers */,
+				645FD2331CE322F1002FD5FB /* RWKnobRenderer.h in Headers */,
+				645FD2351CE322F1002FD5FB /* RWRotationGestureRecognizer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		645FD20B1CE32022002FD5FB /* libstatic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 645FD2151CE32022002FD5FB /* Build configuration list for PBXNativeTarget "libstatic" */;
+			buildPhases = (
+				645FD2081CE32022002FD5FB /* Sources */,
+				645FD2091CE32022002FD5FB /* Frameworks */,
+				645FD20A1CE32022002FD5FB /* CopyFiles */,
+				645FD21A1CE320C1002FD5FB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libstatic;
+			productName = libstatic;
+			productReference = 645FD20C1CE32022002FD5FB /* liblibstatic.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		645FD2041CE32022002FD5FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = zwh;
+				TargetAttributes = {
+					645FD20B1CE32022002FD5FB = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 645FD2071CE32022002FD5FB /* Build configuration list for PBXProject "libstatic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 645FD2031CE32022002FD5FB;
+			productRefGroup = 645FD20D1CE32022002FD5FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				645FD20B1CE32022002FD5FB /* libstatic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		645FD2081CE32022002FD5FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				645FD2361CE322F1002FD5FB /* RWRotationGestureRecognizer.m in Sources */,
+				645FD2321CE322F1002FD5FB /* RWKnobControl.m in Sources */,
+				645FD2121CE32022002FD5FB /* libstatic.m in Sources */,
+				645FD2341CE322F1002FD5FB /* RWKnobRenderer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		645FD2131CE32022002FD5FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		645FD2141CE32022002FD5FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		645FD2161CE32022002FD5FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		645FD2171CE32022002FD5FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		645FD2071CE32022002FD5FB /* Build configuration list for PBXProject "libstatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645FD2131CE32022002FD5FB /* Debug */,
+				645FD2141CE32022002FD5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		645FD2151CE32022002FD5FB /* Build configuration list for PBXNativeTarget "libstatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645FD2161CE32022002FD5FB /* Debug */,
+				645FD2171CE32022002FD5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 645FD2041CE32022002FD5FB /* Project object */;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<books total="18" title="玄幻精选">
+    <book name="宸宫" id="00007620" isInternal="1"/>
+    <book name="庶女反攻记" id="00008092" isInternal="1"/>
+    <book name="破茧重生：冲喜王妃不好惹" id="00008582" isInternal="1"/>
+    <book name="重生之相府嫡女" id="00013152" isInternal="1"/>
+    <book name="嫡女正妃" id="00013792" isInternal="1"/>
+    <book name="嫡女重生模范" id="00013866" isInternal="1"/>
+	<book name="重生之军门商女" id="00013919" isInternal="1"/>
+	<book name="重生之逆天改命" id="00013928" isInternal="1"/>
+	<book name="重生之续弦" id="00013930" isInternal="1"/>
+	<book name="重生之正妻攻略" id="00013931" isInternal="1"/>
+	<book name="侯门嫡妻之锦绣重华" id="00013942" isInternal="1"/>
+	<book name="名门医女" id="00013945" isInternal="1"/>
+    <book name="极品废柴：秦家大小姐" id="00014329" isInternal="1"/>
+    <book name="医手遮香" id="00014348" isInternal="1"/>
+
+</books>

@@ -1,0 +1,20 @@
+PODS:
+  - AVOSCloud (3.1.7.1)
+  - AVOSCloudIM (3.1.7.1):
+    - AVOSCloud
+  - Charts (2.1.6)
+  - MJRefresh (3.0.8)
+
+DEPENDENCIES:
+  - AVOSCloud
+  - AVOSCloudIM
+  - Charts
+  - MJRefresh
+
+SPEC CHECKSUMS:
+  AVOSCloud: 142b7cef3c0bc059dfb73739e02cf9487e65ff66
+  AVOSCloudIM: 4ea51fcce5e9f971140b1784055286fe987c8593
+  Charts: 5e1e5ac23898e5b09d226a2fc3e9d86bc281937e
+  MJRefresh: fafde8f18f4afd66b434331a9beb67a6c0264056
+
+COCOAPODS: 0.35.0
